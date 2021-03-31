@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Lucida Grande";
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -54,8 +54,8 @@ body {
 .judul-kanan > ul > li {
 	float: right;
 }
- 
-	
+
+
 .judul-kanan li a {
 	display: inline-block;
 	color: white;
@@ -63,7 +63,7 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 }
- 
+
 .judul-kanan li a:hover{
 	background-color: #2525ff;
 }
@@ -71,15 +71,15 @@ body {
 li.dropdown {
 	display: inline-block;
 }
- 
+
 .dropdown:hover .isi-dropdown {
 	display: block;
 }
- 
+
 .isi-dropdown a:hover {
 	color: #fff !important;
 }
- 
+
 .isi-dropdown {
 	position: absolute;
 	display: none;
@@ -87,55 +87,55 @@ li.dropdown {
 	z-index: 1;
 	background-color: #f9f9f9;
 }
- 
+
 .isi-dropdown a {
 	color: #3c3c3c !important;
 }
- 
+
 .isi-dropdown a:hover {
 	color: #232323 !important;
 	background: #f3f3f3 !important;
 }
 
 .kotak-judul{
- width: 1170px;   
+ width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 /* Bagian Header */
 .bagian-atas{
- padding: 100px 0 100px 0; 
+ padding: 100px 0 100px 0;
   /*background-image: url(foto-view.jpg);*/
   /*background-size: cover;*/
-  color: blue; 
- text-align:center;  
+  color: blue;
+ text-align:center;
 }
 
-.kotak { 
-	border: 10px solid #efefef; 
-	position: relative; 
-	overflow: hidden; 
+.kotak {
+	border: 10px solid #efefef;
+	position: relative;
+	overflow: hidden;
 	background: #efefef;
 }
 
-.kotak { 
+.kotak {
 	margin:20px auto;
 	width: 768px;
-	height: 450px; 
+	height: 450px;
 }
 
-.kotak-img img { 
+.kotak-img img {
 	width: 768px;
-	height: 450px; 
+	height: 450px;
 	float: left;
 	border-radius: 8px;
 }
 
 
-.kotak-img { 
-	position: absolute; 
-	width:3900px;  
+.kotak-img {
+	position: absolute;
+	width:3900px;
 
 	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
 	animation-name:ganti;
@@ -157,114 +157,114 @@ li.dropdown {
 }
 
 /*saat gambar di hover oleh cursor mouse maka berhenti slide*/
-.kotak-img:hover { 
-	-webkit-animation-play-state:paused; 
-	-moz-animation-play-state:paused; 
-	-o-animation-play-state:paused; 
-	animation-play-state:paused; }
+.kotak-img:hover {
+	-webkit-animation-play-state:paused;
+	-moz-animation-play-state:paused;
+	-o-animation-play-state:paused;
+	animation-play-state:paused;
 }
 
-.kotak-img img { 
-	float: right; 
+.kotak-img img {
+	float: right;
 }
 
-.kotak:after { 
-	font-size: 150px; 
-	position: absolute; 
-	z-index: 12; 
-	color: rgba(255,255,255, 0); 
-	left: 300px; top: 80px; 
-	-webkit-transition: 1s all ease-in-out; 
-	-moz-transition: 1s all ease-in-out; 
-	transition: 1s all ease-in-out; 
+.kotak:after {
+	font-size: 150px;
+	position: absolute;
+	z-index: 12;
+	color: rgba(255,255,255, 0);
+	left: 300px; top: 80px;
+	-webkit-transition: 1s all ease-in-out;
+	-moz-transition: 1s all ease-in-out;
+	transition: 1s all ease-in-out;
 }
 
-.kotak:hover:after { 
-	color: rgba(255,255,255, 0.6);  
+.kotak:hover:after {
+	color: rgba(255,255,255, 0.6);
 }
 
 
-@-moz-keyframes ganti {     
-	0% {	left: 0; opacity: 0; }     
-	2% {	opacity: 1; }  
-	10% {	left: 0; opacity: 1; }     
-	11% {	opacity: 0; }     
-	17% {	opacity: 0; }        
-	20% {	left: -768px; opacity: 1; }       
-	30% {	left: -768px; opacity: 1; }     
-	32% {	opacity: 0; }     
-	38% {	opacity: 0; }     
-	40% {	left: -1536px; opacity: 1; }       
-	50% {	left: -1536px; opacity: 1; }     
-	53% {	opacity: 0; }     
-	58% {	opacity: 0; }     
-	60% {	left: -2304px; opacity: 1; }     
-	70% {	left: -2304px; opacity: 1; }     
-	72% {	opacity: 0; }     
-	78% {	opacity: 0; }    
-	80% {	left: -3072px; opacity: 1; }   	
-	90% {	left: -3072px; opacity: 1; }   	
-	97% { 	left: -3072px; opacity: 0;}   	
+@-moz-keyframes ganti {
+	0% {	left: 0; opacity: 0; }
+	2% {	opacity: 1; }
+	10% {	left: 0; opacity: 1; }
+	11% {	opacity: 0; }
+	17% {	opacity: 0; }
+	20% {	left: -768px; opacity: 1; }
+	30% {	left: -768px; opacity: 1; }
+	32% {	opacity: 0; }
+	38% {	opacity: 0; }
+	40% {	left: -1536px; opacity: 1; }
+	50% {	left: -1536px; opacity: 1; }
+	53% {	opacity: 0; }
+	58% {	opacity: 0; }
+	60% {	left: -2304px; opacity: 1; }
+	70% {	left: -2304px; opacity: 1; }
+	72% {	opacity: 0; }
+	78% {	opacity: 0; }
+	80% {	left: -3072px; opacity: 1; }
+	90% {	left: -3072px; opacity: 1; }
+	97% { 	left: -3072px; opacity: 0;}
 	100% {	left: 0; opacity: 0; }
-} 
+}
 
-@-webkit-keyframes ganti {     
-	0% {	left: 0; opacity: 0; }     
-	2% {	opacity: 1; }   
-	10% {	left: 0; opacity: 1; }     
-	11% {	opacity: 0; }     
-	17% {	opacity: 0; }     
-	20% {	left: -768px; opacity: 1; }       
-	30% {	left: -768px; opacity: 1; }     
-	32% {	opacity: 0; }     
-	38% {	opacity: 0; }     
-	40% {	left: -1536px; opacity: 1; }       
-	50% {	left: -1536px; opacity: 1; }     
-	53% {	opacity: 0; }     
-	58% {	opacity: 0; }     
-	60% {	left: -2304px; opacity: 1; }     
-	70% {	left: -2304px; opacity: 1; }     
-	72% {	opacity: 0; }     
-	78% {	opacity: 0; }    
-	80% {	left: -3072px; opacity: 1; }   	
-	90% {	left: -3072px; opacity: 1; }   	
-	97% { 	left: -3072px; opacity: 0;}   	
+@-webkit-keyframes ganti {
+	0% {	left: 0; opacity: 0; }
+	2% {	opacity: 1; }
+	10% {	left: 0; opacity: 1; }
+	11% {	opacity: 0; }
+	17% {	opacity: 0; }
+	20% {	left: -768px; opacity: 1; }
+	30% {	left: -768px; opacity: 1; }
+	32% {	opacity: 0; }
+	38% {	opacity: 0; }
+	40% {	left: -1536px; opacity: 1; }
+	50% {	left: -1536px; opacity: 1; }
+	53% {	opacity: 0; }
+	58% {	opacity: 0; }
+	60% {	left: -2304px; opacity: 1; }
+	70% {	left: -2304px; opacity: 1; }
+	72% {	opacity: 0; }
+	78% {	opacity: 0; }
+	80% {	left: -3072px; opacity: 1; }
+	90% {	left: -3072px; opacity: 1; }
+	97% { 	left: -3072px; opacity: 0;}
 	100% {	left: 0; opacity: 0; }
-} 
+}
 
 
-@keyframes ganti {     
-	0% {	left: 0; opacity: 0; }     
-	2% {	opacity: 1; }  
-	10% {	left: 0; opacity: 1; }     
-	11% {	opacity: 0; }     
-	17% {	opacity: 0; }      
-	20% {	left: -768px; opacity: 1; }       
-	30% {	left: -768px; opacity: 1; }     
-	32% {	opacity: 0; }     
-	38% {	opacity: 0; }     
-	40% {	left: -1536px; opacity: 1; }       
-	50% {	left: -1536px; opacity: 1; }     
-	53% {	opacity: 0; }     
-	58% {	opacity: 0; }     
-	60% {	left: -2304px; opacity: 1; }     
-	70% {	left: -2304px; opacity: 1; }     
-	72% {	opacity: 0; }     
-	78% {	opacity: 0; }    
-	80% {	left: -3072px; opacity: 1; }   	
-	90% {	left: -3072px; opacity: 1; }   	
-	97% { 	left: -3072px; opacity: 0;}   	
+@keyframes ganti {
+	0% {	left: 0; opacity: 0; }
+	2% {	opacity: 1; }
+	10% {	left: 0; opacity: 1; }
+	11% {	opacity: 0; }
+	17% {	opacity: 0; }
+	20% {	left: -768px; opacity: 1; }
+	30% {	left: -768px; opacity: 1; }
+	32% {	opacity: 0; }
+	38% {	opacity: 0; }
+	40% {	left: -1536px; opacity: 1; }
+	50% {	left: -1536px; opacity: 1; }
+	53% {	opacity: 0; }
+	58% {	opacity: 0; }
+	60% {	left: -2304px; opacity: 1; }
+	70% {	left: -2304px; opacity: 1; }
+	72% {	opacity: 0; }
+	78% {	opacity: 0; }
+	80% {	left: -3072px; opacity: 1; }
+	90% {	left: -3072px; opacity: 1; }
+	97% { 	left: -3072px; opacity: 0;}
 	100% {	left: 0; opacity: 0; }
 }
 
 .bagian-atas h1{
- font-size:50px;   
+ font-size:50px;
  letter-spacing: 5px;
  margin-bottom: 10px;
 }
 
 .bagian-atas p{
- font-size:20px; 
+ font-size:20px;
 }
 
 
@@ -273,7 +273,7 @@ body {
     margin: 0;
     font-family: "Lucida Grande";
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -772,7 +772,7 @@ body {
 .tm-container-inner {
 	max-width: 1120px;
   }
-  
+
   .tm-container-inner-2 {
 	max-width: 900px;
   }
@@ -806,7 +806,7 @@ body {
 }
 
 .tm-description-figure {
-  text-align: center;  
+  text-align: center;
 }
 
 .tm-description-box {
@@ -853,7 +853,7 @@ body {
 
 .conten-item {
 	padding: 15px 15px;
-	
+
 }
 
 .conten-item img{
@@ -871,11 +871,11 @@ body {
 	font-size: 15px;
 	background: #fafafa;
 }
-	
+
 
 /* Bagian Footer */
 footer {
-    
+
     background-color: rgb(136, 118, 238);
     margin-left: 40px;
     margin-right: 40px;
@@ -917,9 +917,19 @@ header {
 }
 
 .testimoni-form {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+	max-width: 80%;
+	margin:auto;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.testimoni-form > textarea {
+	width:100%;
+}
+
+.testimoni-form > input {
+	width:100%;
 }
 
 .kirim {
@@ -953,7 +963,7 @@ textarea {
   border: 1px solid #F8EFBA;
 }
 
-  
+
 /* Bagian Footer */
 
 
